@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap')
+
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+    body {
+        background-color: aliceblue;
+        font-family: "Nanum Myeongjo", serif,Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: aliceblue;
+    margin-right: 50px;
+    gap: 50px;
+}
+
+.wrapper h2 {
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(31) infinite alternate, blink 800ms steps(30) infinite normal;
+    border-right: 5px solid black;
+    margin-left: 30px;
+    margin-left: 5px;
+}
+
+@keyframes typewriter {
+    from {
+        width: 20%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+.wrapper {
+    display: inline-block;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline; 
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav button#fullscreen {
+    font-size: 1em;
+    size: 50px;
+    margin: 0 5px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    gap: 50px;
+    background-color: aliceblue;
+}
+
+section .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .left{
+    margin-bottom: 20px; 
+}
+
+section .right {
+    width: 50%;
+}
+
+section .right {
+    width: 50%;
+    position: relative;
+}
+
+.right {
+    width: 50%;
+    position: relative;
+    overflow: hidden; 
+}
+
+section .right {
+    width: 50%;
+    position: relative;
+    overflow: hidden; 
+}
+
+video {
+    height: 70%; 
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 3vh;
+   
+}
+
+section h1 {
+    font-weight: bold;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    margin-top: -3px;
+}
+section h2 {
+    font-weight: bold;
+    color: rgb(18, 142, 111);
+    
+}
+section h4 {
+    font-weight: bold;
+    color: black;
+}
+
+section ul li {
+    list-style: none;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    margin: 20px;
+    font-size: large;
+}
+
+section .button {
+    font-size: 1em;
+    size: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section button#hireme {
+    background-color: black;
+    color: white;
+}
+
+section button#hireme {
+    background-color: white;
+    color: black;
+}
+
+section .left .buttons button {
+    font-size: 1em;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+section .left .buttons button#resume {
+    font-size: 1em;
+    size: 50px;
+    margin: 0 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section .left .media ul {
+    list-style: none;
+}
+
+section .left .media ul li {
+    display: inline-block;
+   
+}
+
+section .left .media ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section .left .buttons button#resume {
+   
+    color: white;
+    background-color: white;
+    text-decoration: none;
+}
+section2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    flex-direction: row;
+}
+
+section2 .left,
+section2 .right {
+    width: 48%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+section2 .left h2 {
+    font-weight: bold;
+}
+
+section2 .left h3 {
+    margin-top: 10px;
+}
+
+section2 .left .bars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+section2 .left .bars #Skills {
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+section2 #Skills{
+    height: 100vh;
+    width: 100%;
+}
+
+section2 .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+
+section2 .left h2 {
+    font-weight: bold;
+    margin-left: 17vh;
+    font-size: 3em;
+}
+
+section2 .left h3 {
+    
+    margin-left: 17vh;
+    font-size: 2em;
+    margin-top: -3vh;
+}
+
+.left .skill h1 {
+    text-align: center;
+    margin-left: -30px;
+    font-size: 2erm;
+}
+
+.left .skill h3 {
+    margin: 5px;
+}
+
+
+.skill {
+    width: 500px;
+   margin-top: -3vh;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0,0.22);
+    
+  
+   
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25,1);
+}
+.bars li:hover h3 {
+    animation: shake 0.5s ease-in-out;
+    color: red;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0,0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: rgb(245, 245, 51);
+}
+
+.html {
+    width: 90%;
+    animation: html 3s;
+}
+
+.css {
+    width: 80%;
+    animation: css 3s;
+}
+
+.javascript {
+    width: 70%;
+    animation: javascript 3s;
+}
+
+.bootstrap {
+    width: 80%;
+    animation: bootstrap 3s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.right div {
+    width: 120px; 
+    height: 120px; 
+    background-color: yellow;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;  
+}
+.right div:hover {
+    background-color: red;
+    color: black; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.right div i {
+    font-size: 48px; 
+}
+
+.right div p {
+    font-size: 16px; 
+    margin-top: 15px;
+    font-weight: 500; 
+}
+/* Define keyframes for the animation */
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Define keyframes for the animation */
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 376px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+
+    section2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    video {
+        height: 90%; /* Increase the height of the video */
+        width: 90%; /* Increase the width of the video */
+        margin-left: 10px;
+    
+    }
+    .right img {
+        /* Adjust positioning for smaller screens */
+        bottom: 50%;
+        left: 50%;
+        margin-top: -15%; /* Adjust as needed */
+        transform: translate(-50%, 50%); /* Center the image horizontally and move it up */
+        width: 150px; /* Adjust width as needed */
+        height: 150px; /* Adjust height as needed */
+    }
+
+}
+
+@media (min-width: 377px) and (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    section2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .wrapper h2 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    section .left h1 {
+        font-size: 3em; /* Adjust font size for smaller screens */
+        margin-top: 30px;
+    }
+    video {
+        height: 90%; /* Increase the height of the video */
+        width: 90%; /* Increase the width of the video */
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    section2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .wrapper h2 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    section .left h1 {
+        font-size: 3em; /* Adjust font size for smaller screens */
+    }
+    video {
+        height: 90%; /* Increase the height of the video */
+        width: 90%; /* Increase the width of the video */
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 2200px) {
+    
+}
+
+/* Your existing CSS */
+
+/* Your existing CSS */
+
+.right {
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.right video {
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.right img {
+    position: static;
+    bottom: 80%; /* Adjust positioning */
+    left: 40%; /* Adjust positioning */
+    margin-top: -30%;
+    transform: translateX(70%); /* Center the image horizontally */
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 50%;
+    z-index: 2;
+    animation-name: spin; /* Name of the animation */
+    animation-duration: 3s; /* Duration of the animation */
+    animation-iteration-count: infinite; /* Makes the animation repeat infinitely */
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* End rotation at 360 degrees */
+    }
+}
+/* Your existing CSS */
+
